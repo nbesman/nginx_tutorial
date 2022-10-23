@@ -1,6 +1,6 @@
 # nginx_tutorial
 
-Creating load balancer with "nginx" ahd "docker"
+Creating load balancer with "nginx" and "docker"
 1. app1.py and app2.py - 2 (almost) identical tiny applications wrriten in python FLASK.  
 2. nginx.config - routes the incomig trrafic, in a 4:6 ratio between app1 and app2. 
 3. app1.py, app2.py and nginx.config are packed into Dockerfiles. 
